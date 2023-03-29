@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,71 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900|Staatliches" rel="stylesheet">
     <link rel="stylesheet" href="build/css/app.css">
 </head>
+
 <body>
 
+    <header class="header contenedor">
+        <div class="header__logo">
+            <a class="header__enlace" href="">
+                <img class="header__imagen" src="build/img/logo.png" alt="logo">
+            </a>
+        </div> <!-- .header__logo-->
+
+        <nav class="navegacion">
+            <a class="navegacion__enlace navegacion__enlace--crear" href="#">Crear Grupo</a>
+            <a class="navegacion__enlace" href="#">Iniciar Sesión</a>
+            <a class="navegacion__enlace" href="#">Registrarse</a>
+        </nav>
+    </header> <!-- .header -->
+
+    <main class="main">
+        <h1 class="main__heading">Headless Wordpress con Next.js</h1>
+
+        <div class="main__grid contenedor">
+
+            <section class="main__texto">
+                <img src="build/img/meeti.jpg" alt="meeti" class="main__imagen">
+
+                <p class="main__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat at dignissimos
+                    saepe harum et quisquam excepturi? Fugit amet iste, aliquam blanditiis a inventore distinctio,
+                    molestiae error et ab dolores sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Veritatis, adipisci sit quasi temporibus eius et excepturi iste, quaerat rerum non laudantium
+                    tenetur in placeat hic accusamus, amet tempora rem. Ratione.</p>
+
+                <p class="main__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat at dignissimos
+                    saepe harum et quisquam excepturi? Fugit amet iste, aliquam blanditiis a inventore distinctio,
+                    molestiae error et ab dolores sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Veritatis, adipisci sit quasi temporibus eius et excepturi iste, quaerat rerum non laudantium
+                    tenetur in placeat hic accusamus, amet tempora rem. Ratione.</p>
+            </section> <!-- .main__texto -->
+
+            <aside class="mapa">
+                <div class="mapa__imagen">
+                    <img src="build/img/mapa.jpg" alt="mapa meeti">
+                </div>
+
+                <div class="mapa__info">
+                    <h3 class="mapa__heading">Información Meeti</h3>
+                    <p class="mapa__texto">30 dic</p>
+                    <p class="mapa__texto">20:30</p>
+                    <p class="mapa__texto">Av Patriotismo</p>
+                </div>
+            </aside> <!-- .mapa -->
+
+
+        </div>
+    </main>
+
+    <footer class="footer contenedor">
+        <nav class="navegacion">
+            <a class="navegacion__enlace navegacion__enlace--crear" href="#">Crear Grupo</a>
+            <a class="navegacion__enlace" href="#">Iniciar Sesión</a>
+            <a class="navegacion__enlace" href="#">Registrarse</a>
+        </nav>
+
+        <p class="footer__copyright">Todos los derechos reservados. Meeti</p>
+    </footer>
+
 </body>
+
 </html>
